@@ -24,6 +24,6 @@ app.get('/',async(req,res)=>{
 })
 
 // custom is route
-app.use('/api/v1/products',productRoute)
+app.use('/api/v1/bolgs',productRoute)
 
 export {app}
