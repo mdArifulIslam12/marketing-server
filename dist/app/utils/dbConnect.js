@@ -15,7 +15,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.dbConncet = void 0;
 const mongoose_1 = __importDefault(require("mongoose"));
 const logger_1 = require("./logger");
-const URL = process.env.API_URL;
+const { URL } = process.env;
 const dbConncet = () => __awaiter(void 0, void 0, void 0, function* () {
     try {
         if (!URL) {
